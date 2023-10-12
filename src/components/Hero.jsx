@@ -1,5 +1,5 @@
 import React from "react";
-import rectangle from "../assets/rectangle.png";
+import heroImage from "../assets/heroImage1.png";
 import Rectangle2 from "../assets/Rectangle2.png";
 import Rectangle3 from "../assets/Rectangle3.png";
 import Rectangle4 from "../assets/Rectangle4.png";
@@ -44,7 +44,7 @@ const Hero = () => {
           className="w-28 absolute left-[45rem] top-48"
           alt=""
         />
-        <img src={rectangle} className="w-[23rem]" alt="" />
+        <img src={heroImage} className="w-[23rem]" alt="" />
         <div className="flex gap-x-20">
           <img src={Rectangle4} className="w-[3.5rem] h-[3.5rem] my-6" alt="" />
           <img src={Rectangle5} className="w-8 mt-8 h-8 my-6" alt="" />
