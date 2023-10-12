@@ -29,9 +29,9 @@ const socials = [
 
 const Footer = () => {
   return (
-    <div className="bg-lightGray px-40 py-20">
-      <div className="w-[90%] max-w-[992px] mx-auto flex justify-between">
-        <div className="flex items-center">
+    <div className="bg-lightGray px-4 lg:px-40 py-20">
+      <div className="w-[90%] max-w-[992px] mx-auto flex flex-col md:flex-row justify-between">
+        <div className="flex items-center mb-6 md:mb-0">
           <div>
             <a href="/">
               <img src={logo} alt="DevFest Ogbomoso 2023" className="h-10" />
