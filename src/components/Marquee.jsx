@@ -31,7 +31,7 @@ const Marquee2 = () => {
   return (
     <div>
       <div className="marquee  ">
-        <div className="bg-[#F9AB00] h-20 flex items-center px-4 md:w-[110%]  md:rotate-[-6deg] md:absolute left-[-10px] md:top-[36rem] ">
+        <div className="bg-[#F9AB00] h-20 flex items-center px-4 w-[100%] md:w-[110%]  md:rotate-[-6deg] md:absolute left-[-10px] md:top-[36rem] ">
           <div className="flex items-center  px-4 marquee-containers">
             <h1 className="hidden md:block md:text-[1.6rem] font-bold">
               Stay tuned for further updates!
