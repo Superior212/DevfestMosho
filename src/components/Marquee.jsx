@@ -2,16 +2,6 @@ import React, { useEffect, useState } from "react";
 import star from "../assets/Star.png";
 
 const Marquee = () => {
-  const [showExtraContent, setShowExtraContent] = useState(false);
-
-  useEffect(() => {
-    // Start showing extra content after the initial animation is complete
-    const animationDuration = 1000; // Adjust this value to match your animation duration in milliseconds
-    setTimeout(() => {
-      setShowExtraContent(true);
-    }, animationDuration);
-  }, []);
-
   return (
     <div>
       <div className="marquee-container">
@@ -33,11 +23,6 @@ const Marquee = () => {
 
         <Marquee2 />
       </div>
-      {showExtraContent && (
-        <div className="marquee">
-          <h2>Extra Content Here</h2>
-        </div>
-      )}
     </div>
   );
 };
@@ -62,11 +47,8 @@ const Marquee2 = () => {
           </div>
         </div>
       </div>
-    
     </div>
   );
 };
-
-
 
 export default Marquee;
