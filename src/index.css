@@ -16,7 +16,23 @@
   animation: rotate360 2s linear infinite; /* Adjust the animation duration as needed */
 }
 
+.marquee-containers {
+  position: relative;
+  animation: moveCar 20s linear infinite;
+  white-space: nowrap;
+}
 
+body {
+  overflow-x: hidden;
+}
 
+@keyframes moveCar {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 
 

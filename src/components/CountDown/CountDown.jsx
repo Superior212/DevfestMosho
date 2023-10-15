@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import arrow from "../../assets/images/arrow.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const COUNTDOWN_TARGET = new Date("2023-12-01T00:00:00Z").getTime();
 
@@ -25,13 +27,21 @@ const CountDown = () => {
     const timer = setInterval(() => {
       setTimeLeft(getRemainingTime());
     }, 1000);
+    AOS.init({ duration: 2000 });
     return () => {
       clearInterval(timer);
     };
   }, []);
 
   return (
-    <div className="md:mt-24">
+    <div
+      className="md:mt-24"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false">
       <div className="">
         <img
           src={arrow}

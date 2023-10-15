@@ -1,9 +1,23 @@
 import React from "react";
 import speakers from "../../assets/images/speaker.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const CallForSpeakers = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div className="flex items-center justify-center flex-col mt-28 relative">
+    <div
+      className="flex items-center justify-center flex-col mt-28 relative"
+      data-aos="fade-up"
+      data-aos-offset="300"
+      data-aos-delay="50"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false">
       <div className="h-[21rem] md:h-[30rem] w-[24rem] md:w-[50rem] bg-[#F9AB00] flex items-center justify-center  flex-col">
         <img
           src={speakers}
