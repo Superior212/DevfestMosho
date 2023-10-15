@@ -32,7 +32,7 @@ const Marquee2 = () => {
     <div>
       <div className="marquee  ">
         <div className="bg-[#F9AB00] h-20 flex items-center px-4 w-[100%] md:w-[110%]  md:rotate-[-6deg] md:absolute left-[-10px] md:top-[36rem] ">
-          <div className="flex items-center justify-center  px-4 ">
+          <div className="flex items-center justify-center mx-auto md:mx-10">
             <h1 className="hidden md:block md:text-[1.6rem] font-bold">
               Stay tuned for further updates!
             </h1>
