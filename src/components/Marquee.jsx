@@ -37,7 +37,7 @@ const Marquee2 = () => {
               Stay tuned for further updates!
             </h1>
             <img src={star} className="md:mx-6 mr-1 md:mr-2 " alt="" />
-            <h1 className="text-[0.9rem] md:text-[1.6rem] mx-auto md:mx-0 font-bold">
+            <h1 className="text-[0.7rem] md:text-[1.6rem] mx-auto md:mx-0 font-bold">
               Stay tuned for further updates!
             </h1>
             <img src={star} className="mx-6 ml-4 md:ml-2" alt="" />
