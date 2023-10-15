@@ -36,16 +36,16 @@ const Hero = () => {
             unforgettable tech experience.
           </p>
           <div className="flex">
-            <button
-              href="#"
-              className="block text-sm  my-4  md:my-1 md:text-md py-2  pl-2 pr-3 md:pl-3 md:pr-4 text-white hover:bg-blue-400 rounded-xl bg-[#4285F4]">
-              Grab Your Ticket
-            </button>
-            <button
-              href="#"
-              className="block text-sm  my-4 md:my-1 md:text-md mx-8 py-2 pl-2 pr-2 md:pl-3 md:pr-4  border-2 hover:border-none text-black hover:bg-blue-400 rounded-xl bg-transparent">
-              Call For Speakers
-            </button>
+            <a href="https://bit.ly/devfest-ogbomoso-23">
+              <button className="block text-sm  my-4  md:my-1 md:text-md py-2  pl-2 pr-3 md:pl-3 md:pr-4 text-white hover:bg-blue-400 rounded-xl bg-[#4285F4]">
+                Grab Your Ticket
+              </button>
+            </a>
+            <a href="https://sessionize.com/devfest-ogbomoso-2023/">
+              <button className="block text-sm  my-4 md:my-1 md:text-md mx-8 py-2 pl-2 pr-2 md:pl-3 md:pr-4  border-2 hover:border-none text-black hover:bg-blue-400 rounded-xl bg-transparent">
+                Call For Speakers
+              </button>
+            </a>
           </div>
         </div>
         <div className="md:w-[40%] hidden md:block">
@@ -77,4 +77,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;  
+export default Hero;

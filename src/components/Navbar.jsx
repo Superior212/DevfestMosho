@@ -43,7 +43,8 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://sessionize.com/devfest-ogbomoso-2023/"
+                  target="_blank"
                   className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100">
                   Call For Speakers
                 </a>
@@ -56,11 +57,11 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <button
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-white hover:bg-blue-400 rounded-xl bg-[#4285F4]">
-                  Grab Your Ticket
-                </button>
+                <a href="https://bit.ly/devfest-ogbomoso-23" target="_blank">
+                  <button className="block py-2 pl-3 pr-4 text-white hover:bg-blue-400 rounded-xl bg-[#4285F4]">
+                    Grab Your Ticket
+                  </button>
+                </a>
               </li>
             </ul>
           </div>
